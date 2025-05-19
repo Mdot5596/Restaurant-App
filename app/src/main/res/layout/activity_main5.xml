@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/bookings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/button3"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="-32dp"
+        android:layout_toRightOf="@id/button3"
+        android:text="Manage Booking's"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Account Settings"
+        android:textSize="11dp"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Reservation"
+        android:textSize="11dp"
+        android:layout_below="@id/button"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button3"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Manage Booking"
+        android:textSize="11dp"
+        android:layout_below="@id/button2"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button4"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Menu"
+        android:textSize="11dp"
+        android:layout_below="@id/button3"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button5"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Review's and Feedback"
+        android:textSize="10dp"
+        android:layout_below="@id/button4"
+        app:iconSize="18dp"
+        />
+
+
+    <TextView
+        android:id="@+id/bookingsTextView"
+        android:layout_width="285dp"
+        android:layout_height="420dp"
+        android:layout_below="@id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:text="Booking Information will be displayed here."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/canceltextview"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/bookings"
+        android:layout_centerHorizontal="true"
+        android:text="Cancel Booking:"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+      />
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_above="@id/bookingsTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-10dp"
+        android:background="@color/white"
+        android:text="Booking History"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cancelbooking"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/bookings"
+        android:layout_toRightOf="@+id/canceltextview"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/DarkMagenta"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:text="Cancel" />
+
+
+
+</RelativeLayout>

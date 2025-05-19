@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/button3"
+        android:layout_toRightOf="@id/button3"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Food Menu"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Account Settings"
+        android:textSize="11dp"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Reservation"
+        android:textSize="11dp"
+        android:layout_below="@id/button"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button3"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Manage Booking"
+        android:textSize="11dp"
+        android:layout_below="@id/button2"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button4"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Menu"
+        android:textSize="11dp"
+        android:layout_below="@id/button3"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button5"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Review's and Feedback"
+        android:textSize="10dp"
+        android:layout_below="@id/button4"
+        app:iconSize="18dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/burger"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="550dp"
+        android:layout_toRightOf="@+id/fishandchip"
+        android:contentDescription="Image Description"
+        android:gravity="center"
+        android:src="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/fishandchip"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:contentDescription="Image Description"
+        android:gravity="center"
+        android:src="@drawable/fishandchipphoto" />
+
+    <ImageView
+        android:id="@+id/imgmenu"
+        android:layout_width="420dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/img_1"
+        />
+
+</RelativeLayout>

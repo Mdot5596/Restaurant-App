@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/accsettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/button3"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="-32dp"
+        android:layout_toRightOf="@id/button3"
+        android:text="Account Settings"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/settingimage"
+        android:layout_width="166dp"
+        android:layout_height="92dp"
+        android:layout_below="@id/accsettings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/settingimage24" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Account Settings"
+        android:textSize="11dp"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Reservation"
+        android:textSize="11dp"
+        android:layout_below="@id/button"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button3"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Manage Booking"
+        android:textSize="11dp"
+        android:layout_below="@id/button2"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button4"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Menu"
+        android:textSize="11dp"
+        android:layout_below="@id/button3"
+        app:iconSize="18dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button5"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Review's and Feedback"
+        android:textSize="10dp"
+        android:layout_below="@id/button4"
+        app:iconSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/favmealtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="2dp"
+        android:text="Set A Favourite Meal"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerFavoriteMeal"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/favmealtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp" />
+
+    <TextView
+        android:id="@+id/favlocationtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:textColor="@color/black"
+        android:text="Preferred Seating Location"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerFavouriteSeat"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/favlocationtext" />
+
+
+    <TextView
+        android:id="@+id/notificationtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Notifications"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="435dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnernoti"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/notificationtext"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/savebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnernoti"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/green"
+        android:text="Save Changes"
+        android:textSize="18dp"/>
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerFavouriteSeat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="@color/DarkMagenta"
+        android:text="Log Out"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

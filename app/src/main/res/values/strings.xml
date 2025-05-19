@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">AS2</string>
+
+    <string-array name="seating_area_options">
+        <item>Inside</item>
+        <item>Outside</item>
+        <item>Garden-Side</item>
+        <item>Sea-Side</item>
+    </string-array>
+
+    <string-array name="food">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+
+    <string-array name="user_fav_food">
+        <item>Cod and Chips</item>
+        <item>Haddock With Chips</item>
+        <item>Sea Bass Basket</item>
+        <item>Classic Handcut Chips</item>
+        <item>Sweet Potato Fries</item>
+        <item>Waffle Fries</item>
+
+    </string-array>
+
+    <string-array name="notifications">
+        <item>On</item>
+        <item>Off</item>
+
+    </string-array>
+
+
+<string-array name="guests">
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+<item>9</item>
+<item>10</item>
+</string-array>
+
+
+
+    </resources>
